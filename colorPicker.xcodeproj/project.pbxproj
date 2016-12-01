@@ -12,6 +12,7 @@
 		B80F14791DF05CA3002C141D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80F14771DF05CA3002C141D /* Main.storyboard */; };
 		B80F147B1DF05CA4002C141D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80F147A1DF05CA4002C141D /* Assets.xcassets */; };
 		B80F147E1DF05CA4002C141D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80F147C1DF05CA4002C141D /* LaunchScreen.storyboard */; };
+		B80F14881DF0611B002C141D /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80F14871DF0611B002C141D /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B80F147A1DF05CA4002C141D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80F147D1DF05CA4002C141D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80F147F1DF05CA4002C141D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80F14871DF0611B002C141D /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B80F147A1DF05CA4002C141D /* Assets.xcassets */,
 				B80F147C1DF05CA4002C141D /* LaunchScreen.storyboard */,
 				B80F147F1DF05CA4002C141D /* Info.plist */,
+				B80F14871DF0611B002C141D /* ColorPickerViewController.swift */,
 			);
 			path = colorPicker;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				B80F14761DF05CA3002C141D /* ViewController.swift in Sources */,
 				B80F14741DF05CA3002C141D /* AppDelegate.swift in Sources */,
+				B80F14881DF0611B002C141D /* ColorPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
